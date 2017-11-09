@@ -118,3 +118,15 @@ br{
 .intro_story{
   margin-top: 3em;
 }
+
+#story_chapter1{
+  display: none;
+}
+
+#story_chapter2{
+  display: none;
+}
+
+#story_chapter3{
+  display: none;
+}

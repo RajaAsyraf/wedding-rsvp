@@ -60,7 +60,8 @@
                 <hr style="border-top: 1px solid #71AD55;">
               </div>
 
-              <div id="clock" class="h1"></div>
+              <div id="clock" class="h1">Countdown</div>
+              <small>until the wedding day</small>
 
               <p class="venue">Alor Setar, Kedah | Saturday 9<small>th of</small> December 2017</p>
 
@@ -87,7 +88,94 @@
               </div>
 
               <div class="">
-                <a href="#">Click here for full story.</a>
+                <a href="#story_chapter1" id="full_story_link1">Click here for full story.</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid text-center full-height" id="story_chapter1">
+          <div class="row">
+            <div class="col">
+
+              <div>
+                <h1 class="title">Chapter 1</h1>
+              </div>
+
+              <div class="intro_story">
+                <p>On June 2016, girl was having her last semester in university, boy came confessing to girl.</p>
+                <p>"Go and ask my parent", girl said.</p>
+                <p>On January 2017, boy finish his last semester in university.</p>
+                <p>From south, he went up north. ALONE. Asking for permission from girl's parents.</p>
+                <p>March 2017, they got engaged.</p>
+                <p>Finally, on December 2017 they are getting married.</p>
+                <p>On January 2017, boy finish his last semester in university.</p>
+                <p>From south, he went up north. ALONE. Asking for permission from girl's parents.</p>
+                <p>March 2017, they got engaged.</p>
+                <p>Finally, on December 2017 they are getting married.</p>
+              </div>
+
+              <div class="">
+                <a href="#story_chapter2" id="full_story_link2">Next (Chapter 2 - out of 3)</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid text-center full-height" id="story_chapter2">
+          <div class="row">
+            <div class="col">
+
+              <div>
+                <h1 class="title">Chapter 2</h1>
+              </div>
+
+              <div class="intro_story">
+                <p>On June 2016, girl was having her last semester in university, boy came confessing to girl.</p>
+                <p>"Go and ask my parent", girl said.</p>
+                <p>On January 2017, boy finish his last semester in university.</p>
+                <p>From south, he went up north. ALONE. Asking for permission from girl's parents.</p>
+                <p>March 2017, they got engaged.</p>
+                <p>Finally, on December 2017 they are getting married.</p>
+                <p>On January 2017, boy finish his last semester in university.</p>
+                <p>From south, he went up north. ALONE. Asking for permission from girl's parents.</p>
+                <p>March 2017, they got engaged.</p>
+                <p>Finally, on December 2017 they are getting married.</p>
+              </div>
+
+              <div class="">
+                <a href="#story_chapter3" id="full_story_link3">Next (Chapter 3 - out od 3)</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid text-center full-height" id="story_chapter3">
+          <div class="row">
+            <div class="col">
+
+              <div>
+                <h1 class="title">Chapter 3</h1>
+              </div>
+
+              <div class="intro_story">
+                <p>On June 2016, girl was having her last semester in university, boy came confessing to girl.</p>
+                <p>"Go and ask my parent", girl said.</p>
+                <p>On January 2017, boy finish his last semester in university.</p>
+                <p>From south, he went up north. ALONE. Asking for permission from girl's parents.</p>
+                <p>March 2017, they got engaged.</p>
+                <p>Finally, on December 2017 they are getting married.</p>
+                <p>On January 2017, boy finish his last semester in university.</p>
+                <p>From south, he went up north. ALONE. Asking for permission from girl's parents.</p>
+                <p>March 2017, they got engaged.</p>
+                <p>Finally, on December 2017 they are getting married.</p>
+              </div>
+
+              <div class="">
+                <a href="#story" id="full_story_link_close">Close all chapters</a>
               </div>
 
             </div>
@@ -237,7 +325,7 @@
     <script src="{{ asset('js/vue-main.js') }}"></script>
 
     <script type="text/javascript">
-    $('#clock').countdown('2017/12/09 14:00:00').on('update.countdown', function(event) {
+    $('#clock').countdown('2017/12/09 00:00:00').on('update.countdown', function(event) {
       var $this = $(this).html(event.strftime(''
         + '<span>%-w</span> week%!w '
         + '<span>%-d</span> day%!d '
@@ -285,6 +373,24 @@
         $( ".cross" ).hide();
         $( ".hamburger" ).show();
         $( ".menu" ).slideToggle( "slow" );
+      });
+
+      $( "#full_story_link1" ).click(function() {
+        $( "#story_chapter1" ).show();
+      });
+
+      $( "#full_story_link2" ).click(function() {
+        $( "#story_chapter2" ).show();
+      });
+
+      $( "#full_story_link3" ).click(function() {
+        $( "#story_chapter3" ).show();
+      });
+
+      $( "#full_story_link_close" ).click(function() {
+        $( "#story_chapter1" ).hide();
+        $( "#story_chapter2" ).hide();
+        $( "#story_chapter3" ).hide();
       });
 
       $(window).scroll(function () {
