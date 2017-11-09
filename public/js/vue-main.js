@@ -10,9 +10,19 @@ var app = new Vue({
     rsvpStatus: "Send"
   },
 
+  computed: {
+    isDisabled () {
+      if (this.rsvpName.length > 3 && this.rsvp.length > 1) {
+        return false;
+      } else {
+        return true;
+      }
+    }
+  },
+
   methods: {
     addRSVP(){
-      this.rsvpStatus = "Loading...";
+      this.rsvpStatus = "Submitting...";
       var postData = {rsvpName: this.rsvpName, rsvp: this.rsvp};
 
       axios.post('/api/rsvp', postData).then((response) => {
@@ -40,9 +50,19 @@ var app2 = new Vue({
     wishStatus: 'Send'
   },
 
+  computed: {
+    isDisabled () {
+      if (this.wishName.length > 3 && this.wishMessage.length > 3) {
+        return false;
+      } else {
+        return true;
+      }
+    }
+  },
+
   methods: {
     addWish(){
-      this.wishStatus = "Loading...";
+      this.wishStatus = "Submitting...";
       var postData = {wishName: this.wishName, wishMessage: this.wishMessage};
 
       axios.post('/api/wish', postData).then((response) => {

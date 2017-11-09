@@ -29,29 +29,11 @@
     </head>
     <body>
         <div class="container-fluid full-height text-center">
-          <!-- <div class="col col-md-4 notification">
-            @if (session('success'))
-              <div class="flash-message">
-                <div class="alert alert-success text-center">
-                  {{ session('success') }}
-                </div>
-              </div>
-            @endif
-            @if (count($errors))
-              <div class="alert alert-danger">
-                <ul>
-                  @foreach ($errors->all() as $error)
-                  <li>{{ $error  }}</li>
-                  @endforeach
-                </ul>
-              </div>
-            @endif
-          </div> -->
 
           <div class="row justify-content-center">
             <div class="col">
-              <button class="hamburger">&#9776;</button>
-              <button class="cross">&#10005;</button>
+              <a class="hamburger">&#9776;</a>
+              <a class="cross">&#10005;</a>
               <div class="menu">
                 <ul>
                   <a class="links" href="#story"><li>Our Story</li></a>
@@ -93,6 +75,19 @@
 
               <div>
                 <h1 class="title">Our Story</h1>
+              </div>
+
+              <div class="intro_story">
+                <p>On June 2016, girl was having her last semester in university, boy came confessing to girl.</p>
+                <p>"Go and ask my parent", girl said.</p>
+                <p>On January 2017, boy finish his last semester in university.</p>
+                <p>From south, he went up north. ALONE. Asking for permission from girl's parents.</p>
+                <p>March 2017, they got engaged.</p>
+                <p>Finally, on December 2017 they are getting married.</p>
+              </div>
+
+              <div class="">
+                <a href="#">Click here for full story.</a>
               </div>
 
             </div>
@@ -170,43 +165,11 @@
                   <div class="form-group">
                     <div class="row justify-content-center">
                       <div class="col-6" style="background-color: #05341f;">
-                        <input type="submit" name="buttonAccept" v-bind:value="rsvpStatus" style="color: white; background-color: transparent;" class="btn btn-block">
+                        <input type="submit" name="buttonAccept" v-bind:value="rsvpStatus" style="color: white; background-color: transparent;" class="btn btn-block" :class="{ disabled: isDisabled }" :disabled="isDisabled">
                       </div>
                     </div>
                   </div>
                 </form>
-
-                <!-- <form action="/rsvp" method="post">
-                  {{ csrf_field() }}
-                  <div class="form-group">
-                    <div class="row justify-content-center">
-                      <div class="col-8">
-                        <input v-model="rsvpName" name="rsvpName" type="text" placeholder="Your name" class="form-control text-center" required>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class="radio">
-                      <input type="radio" id="one" value="Yeayy!!! See you there, " v-model="rsvp" name="rsvp" required>
-                      <label for="one">I am coming!</label>
-                    </div>
-                    <div class="radio">
-                      <input type="radio" id="two" value="It'okay, " v-model="rsvp" name="rsvp" required>
-                      <label for="two">Sorry, can't make it.</label>
-                    </div>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="">@{{ rsvp }} @{{ rsvpName }}</label>
-                  </div>
-                  <div class="form-group">
-                    <div class="row justify-content-center">
-                      <div class="col-6" style="background-color: #05341f;">
-                        <input type="submit" name="buttonAccept" v-bind:value="rsvpStatus" style="color: white; background-color: transparent;" class="btn btn-block">
-                      </div>
-                    </div>
-                  </div>
-                </form> -->
 
                 <div class="alert alert-success" v-if="sendRSVP">
                   <p>Thank you for your response, @{{ rsvpName }}.</p>
@@ -221,7 +184,6 @@
                 </div>
 
               </div>
-
             </div>
           </div>
         </div>
@@ -243,35 +205,23 @@
                   <div class="form-group">
                     <div class="row justify-content-center">
                       <div class="col-6" style="background-color: #05341f;">
-                        <input type="submit" name="buttonSendWish" v-bind:value="wishStatus" style="color: white; background-color: transparent;" class="btn btn-block">
+                        <input type="submit" name="buttonSendWish" v-bind:value="wishStatus" style="color: white; background-color: transparent;" class="btn btn-block" :class="{ disabled: isDisabled }" :disabled="isDisabled">
                       </div>
                     </div>
                   </div>
                 </form>
-                <!-- <form action="/wish" method="post">
-                  {{ csrf_field() }}
-                  <p>Send your wedding wishes to us and we will display it on our special day!</p>
-                  <div class="form-group">
-                    <input name="wishName" type="text" placeholder="Your name" class="form-control text-center" required>
-                  </div>
-                  <div class="form-group">
-                    <textarea name="wishMessage" class="form-control text-center" rows="10" cols="50" placeholder="Your message" style="resize: none;" required></textarea>
-                  </div>
-                  <div class="form-group">
-                    <div class="row justify-content-center">
-                      <div class="col-6" style="background-color: #05341f;">
-                        <input type="submit" name="buttonSendWish" v-bind:value="wishStatus" style="color: white; background-color: transparent;" class="btn btn-block">
-                      </div>
-                    </div>
-                  </div>
-                </form> -->
                 <div class="alert alert-success" v-if="sendWish">
                   <p>Great! Thank you so much for your wishes, @{{ wishName }}.</p>
                 </div>
               </div>
             </div>
           </div>
-          <p style="position: absolute; bottom: 0; opacity: 0.5; width: 100%;"><small>All rights belong to us. Design by The Bride & Develop by The Groom</small></p>
+          <div class="">
+            <div style="margin-top: 2em; opacity: 0.5;">
+              <p><small> Design by The Bride & Develop by The Groom</small></p>
+            </div>
+          </div>
+          <!-- <div style="position: absolute; bottom: 0; left:0; right:0; opacity: 0.5;"><p><small>All rights belong to us.</small></p><p><small> Design by The Bride & Develop by The Groom</small></p></div> -->
         </div>
 
         <a id="back-to-top" href="#" class="btn btn-success btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="fa fa-arrow-up"></span></a>
@@ -327,16 +277,14 @@
 
       $( ".hamburger" ).click(function() {
         $( ".hamburger" ).hide();
-        $( ".menu" ).slideToggle( "slow", function() {
-          $( ".cross" ).show();
-        });
+        $( ".cross" ).show();
+        $( ".menu" ).slideToggle( "slow" );
       });
 
       $( ".cross" ).click(function() {
         $( ".cross" ).hide();
-        $( ".menu" ).slideToggle( "slow", function() {
-          $( ".hamburger" ).show();
-        });
+        $( ".hamburger" ).show();
+        $( ".menu" ).slideToggle( "slow" );
       });
 
       $(window).scroll(function () {

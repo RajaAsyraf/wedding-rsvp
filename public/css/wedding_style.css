@@ -55,7 +55,7 @@ a, a:hover {
   }
 
   .full-height {
-    padding-top: 2em;
+    padding-top: 0.5em;
     min-height: 100vh;
   }
 
@@ -113,4 +113,8 @@ br{
   display:none;
   background-color:#05341f;
   border: 1px solid #05341f;
+}
+
+.intro_story{
+  margin-top: 3em;
 }
