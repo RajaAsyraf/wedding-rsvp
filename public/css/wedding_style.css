@@ -1,0 +1,116 @@
+
+html, body {
+    background-color: #fff;
+    color: #05341f;
+    font-family: 'IM Fell French Canon', serif;
+    /*font-family: 'Raleway', sans-serif;*/
+    /*font-family: 'Cormorant Garamond', serif;*/
+    font-weight: 100;
+}
+
+a, a:hover {
+  color: #636b6f;
+}
+
+.main-title{
+  font-family: 'Italianno', cursive;
+  font-size: 90px;
+}
+
+.title{
+  font-family: 'Italianno', cursive;
+  font-size: 50px;
+}
+
+.full-height {
+    padding-top: 6em;
+    min-height: 100vh;
+}
+
+.header{
+  margin-top: 5em;
+}
+
+.hamburger{
+  display: none;
+}
+
+.cross{
+  display: none;
+}
+
+.menu{
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .hamburger{
+    display: inline;
+  }
+
+  .menu ul {
+    list-style-type: none;
+    list-style-image: none;
+    -webkit-padding-start: 0px;
+  }
+
+  .full-height {
+    padding-top: 2em;
+    min-height: 100vh;
+  }
+
+  .header{
+    margin-top: 2em;
+  }
+
+  .all-links{
+    display: none;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  #clock{
+    padding-top: 1em;
+  }
+}
+
+.links{
+  margin-right: 5em;
+  color: #71AD55;
+}
+
+.venue{
+  margin-top: 2em;
+}
+
+.notification{
+  position: absolute;
+  z-index:90;
+  /*margin-top: 2em;*/
+  bottom: 10px;
+  right:10px;
+}
+
+br{
+  display: none;
+}
+
+@media all and (max-width: 480px) {
+    .break2 { display: inline }
+}
+
+@media all and (max-width: 320px) {
+    br { display: inline }
+}
+
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display:none;
+  background-color:#05341f;
+  border: 1px solid #05341f;
+}
