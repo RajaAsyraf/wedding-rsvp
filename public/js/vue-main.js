@@ -7,12 +7,13 @@ var app = new Vue({
     rsvp: '',
     rsvpName: '',
     sendRSVP: false,
-    rsvpStatus: "Send"
+    rsvpStatus: "Send",
+    show: false
   },
 
   computed: {
     isDisabled () {
-      if (this.rsvpName.length > 3 && this.rsvp.length > 1) {
+      if (this.rsvpName.length > 1 && this.rsvp.length > 1) {
         return false;
       } else {
         return true;

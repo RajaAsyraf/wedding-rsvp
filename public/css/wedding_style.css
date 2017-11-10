@@ -3,32 +3,102 @@ html, body {
     background-color: #fff;
     color: #05341f;
     font-family: 'IM Fell French Canon', serif;
-    /*font-family: 'Raleway', sans-serif;*/
-    /*font-family: 'Cormorant Garamond', serif;*/
     font-weight: 100;
+    background-image: url("/images/backgrounddark.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.full-height {
+    padding-top: 8em;
+    min-height: 85vh;
+}
+
+#screen-top{
+  background-image: url("/images/row1-01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#story{
+  background-image: url("/images/row2-01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 91vh;
+}
+
+#story_chapter1{
+  background-image: url("/images/rowstory1-02.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 91vh;
+}
+
+#story_chapter2{
+  background-image: url("/images/rowstory2-02.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 91vh;
+}
+
+#story_chapter3{
+  background-image: url("/images/rowstory3-02.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 91vh;
+}
+
+#groom{
+  background-image: url("/images/row3-01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#flow{
+  background-image: url("/images/row4-01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#venue{
+  background-image: url("/images/row5-01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#rsvp{
+  background-image: url("/images/row6-01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#wishes{
+  background-image: url("/images/row7-01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
 }
 
 a, a:hover {
-  color: #636b6f;
-}
-
-.main-title{
-  font-family: 'Italianno', cursive;
-  font-size: 90px;
+  color: #75a941;
 }
 
 .title{
+  margin-top: 0.5em;
   font-family: 'Italianno', cursive;
-  font-size: 50px;
+  font-size: 70px;
 }
 
-.full-height {
-    padding-top: 6em;
-    min-height: 100vh;
+.name-title{
+  margin-top: 0.5em;
 }
 
 .header{
-  margin-top: 5em;
+  margin-top: 2em;
+}
+.header-text{
+  margin-top: 5px;
 }
 
 .hamburger{
@@ -43,7 +113,32 @@ a, a:hover {
   display: none;
 }
 
+.main-title{
+  font-family: 'Italianno', cursive;
+  font-size: 90px;
+  margin-right: 10px;
+}
+
+.all-links{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 1px solid #75a941;
+  border-bottom: 1px solid #75a941;
+  background-image: url("/images/backgrounddark.png");
+}
+
+@media only screen and (max-width: 768px) {
+  .all-links{
+    font-size: 10px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
+
+  .title{
+    font-size: 50px;
+  }
+
   .hamburger{
     display: inline;
   }
@@ -60,7 +155,7 @@ a, a:hover {
   }
 
   .header{
-    margin-top: 2em;
+    margin-top: 5em;
   }
 
   .all-links{
@@ -73,12 +168,24 @@ a, a:hover {
 
   #clock{
     padding-top: 1em;
+    font-size: 20px;
+  }
+
+  .main-title{
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+    margin-top: 0.5em;
+  }
+
+  .name-title{
+    margin-top: 0.5em;
+    height: 40px;
   }
 }
 
 .links{
   margin-right: 5em;
-  color: #71AD55;
+  color: #75a941;
 }
 
 .venue{
@@ -93,18 +200,6 @@ a, a:hover {
   right:10px;
 }
 
-br{
-  display: none;
-}
-
-@media all and (max-width: 480px) {
-    .break2 { display: inline }
-}
-
-@media all and (max-width: 320px) {
-    br { display: inline }
-}
-
 .back-to-top {
   cursor: pointer;
   position: fixed;
@@ -116,7 +211,7 @@ br{
 }
 
 .intro_story{
-  margin-top: 3em;
+  margin-top: 4em;
 }
 
 #story_chapter1{

@@ -28,13 +28,37 @@
         <link href="{{ asset('/css/wedding_style.css') }}" rel="stylesheet" type="text/css" >
     </head>
     <body>
-        <div class="container-fluid full-height text-center">
+        <div class="container-fluid full-height text-center" id="screen-top">
 
           <div class="row justify-content-center">
             <div class="col">
+              <div class="header">
+                <img src="{{ asset('images/walimatulurus-01.png')}}" alt="" height="30px;">
+                <p class="header-text">Invitation To The Wedding Of</p>
+              </div>
+              <div>
+                  <!-- <h1 class="main-title">Fadzlina & Asyraf</h1> -->
+                  <img class="name-title" src="{{ asset('images/Title-02.png')}}" alt="">
+              </div>
+              <div class="all-links">
+                <a class="links" href="#story">Our Story</a>
+                <a class="links" href="#groom">Bride & Groom</a>
+                <a class="links" href="#flow">Ceremony Flow</a>
+                <a class="links" href="#venue">Venue</a>
+                <a class="links" href="#rsvp" title="The French expression 'répondez s'il vous plaît', meaning 'please respond'.">RSVP</a>
+                <a class="links" href="#wishes">Wedding Wishes</a>
+              </div>
+
+              <div id="clock" class="h1">Countdown</div>
+              <small>until the reception</small>
+
+              <br>
+              <br>
               <a class="hamburger">&#9776;</a>
               <a class="cross">&#10005;</a>
+
               <div class="menu">
+                <br>
                 <ul>
                   <a class="links" href="#story"><li>Our Story</li></a>
                   <a class="links" href="#groom"><li>Bride & Groom</li></a>
@@ -44,24 +68,6 @@
                   <a class="links" href="#wishes"><li>Wedding Wishes</li></a>
                 </ul>
               </div>
-              <p class="header">Invitation To The Wedding Of</p>
-              <div>
-                  <h1 class="main-title">Fadzlina <br class="break2"/> & <br class="break2"/>&nbsp;Asyraf</h1>
-              </div>
-
-              <div class="all-links">
-                <hr style="border-top: 1px solid #71AD55;">
-                <a class="links" href="#story">Our Story</a>
-                <a class="links" href="#groom">Bride & Groom</a>
-                <a class="links" href="#flow">Ceremony Flow</a>
-                <a class="links" href="#venue">Venue</a>
-                <a class="links" href="#rsvp" title="The French expression 'répondez s'il vous plaît', meaning 'please respond'.">RSVP</a>
-                <a class="links" href="#wishes">Wedding Wishes</a>
-                <hr style="border-top: 1px solid #71AD55;">
-              </div>
-
-              <div id="clock" class="h1">Countdown</div>
-              <small>until the wedding day</small>
 
               <p class="venue">Alor Setar, Kedah | Saturday 9<small>th of</small> December 2017</p>
 
@@ -79,16 +85,21 @@
               </div>
 
               <div class="intro_story">
-                <p>On June 2016, girl was having her last semester in university, boy came confessing to girl.</p>
-                <p>"Go and ask my parent", girl said.</p>
-                <p>On January 2017, boy finish his last semester in university.</p>
-                <p>From south, he went up north. ALONE. Asking for permission from girl's parents.</p>
-                <p>March 2017, they got engaged.</p>
-                <p>Finally, on December 2017 they are getting married.</p>
-              </div>
+                <p>On June 2016, Girl was having her last semester in university, Boy came confessing to Girl.</p>
 
+                <p>“ Go and ask my parents ”, Girl said.</p>
+
+                <p>On January 2017, boy finished his last semester in university.</p>
+
+                <p>From down south, he went up north. ALONE. Asking for permission from Girl’s parents.</p>
+
+                <p>March 2017, they got engaged.</p>
+
+                <p>Finally, in December 2017 they are getting married!</p>
+              </div>
+              <br>
               <div class="">
-                <a href="#story_chapter1" id="full_story_link1">Click here for full story.</a>
+                <a href="#story_chapter1" id="full_story_link1"><u>Can’t get enough of it? Click here for full story.</u></a>
               </div>
 
             </div>
@@ -100,24 +111,27 @@
             <div class="col">
 
               <div>
-                <h1 class="title">Chapter 1</h1>
+                <h1 class="title" style="margin-top:0;">Chapter 1</h1>
               </div>
 
               <div class="intro_story">
-                <p>On June 2016, girl was having her last semester in university, boy came confessing to girl.</p>
-                <p>"Go and ask my parent", girl said.</p>
-                <p>On January 2017, boy finish his last semester in university.</p>
-                <p>From south, he went up north. ALONE. Asking for permission from girl's parents.</p>
-                <p>March 2017, they got engaged.</p>
-                <p>Finally, on December 2017 they are getting married.</p>
-                <p>On January 2017, boy finish his last semester in university.</p>
-                <p>From south, he went up north. ALONE. Asking for permission from girl's parents.</p>
-                <p>March 2017, they got engaged.</p>
-                <p>Finally, on December 2017 they are getting married.</p>
-              </div>
+                <p>On 2012, Boy & Girl (both 18 years old) are in the same batch during a preparation program before entering university.</p>
 
-              <div class="">
-                <a href="#story_chapter2" id="full_story_link2">Next (Chapter 2 - out of 3)</a>
+                <p>They barely knew each other's existence except for when they met in the batch gathering every once a year.</p>
+
+                <p>Boy thought Girl was some pain in the ass while Girl thought boy was some lame dude who won’t talk to girls.</p>
+
+                <p>Not until January 2014, they started joining the same event and became committees.</p>
+
+                <p>Girl was always sneaky and jokes around inside the meeting where she obviously being super loud.</p>
+
+                <p>Meanwhile, Boy started making more friends out of his circle and obviously he can actually talk to girls.</p>
+
+                <p>They became more friendly and Boy started joining and hanging out with Girl’s circle of friends.</p>
+
+                <p>Day by day, they became closer and became good friends.</p>
+
+                <p>Little did Girl know, Boy never thought of her as a friend even from the start.</p>
               </div>
 
             </div>
@@ -133,20 +147,23 @@
               </div>
 
               <div class="intro_story">
-                <p>On June 2016, girl was having her last semester in university, boy came confessing to girl.</p>
-                <p>"Go and ask my parent", girl said.</p>
-                <p>On January 2017, boy finish his last semester in university.</p>
-                <p>From south, he went up north. ALONE. Asking for permission from girl's parents.</p>
-                <p>March 2017, they got engaged.</p>
-                <p>Finally, on December 2017 they are getting married.</p>
-                <p>On January 2017, boy finish his last semester in university.</p>
-                <p>From south, he went up north. ALONE. Asking for permission from girl's parents.</p>
-                <p>March 2017, they got engaged.</p>
-                <p>Finally, on December 2017 they are getting married.</p>
-              </div>
+                <p>Girl started sharing secrets with Boy. She has been crushing on someone for almost 4 years.</p>
 
-              <div class="">
-                <a href="#story_chapter3" id="full_story_link3">Next (Chapter 3 - out od 3)</a>
+                <p>Boy remained calm and became a good listener (at least that’s what Girl thought). Boy knew he was friend zoned by Girl.</p>
+
+                <p>Boy did not give up and aggressively tried to get Girl’s attention.</p>
+
+                <p>Girl got a hunch of Boy’s feeling but she did not feel right about some different feelings between friends.</p>
+
+                <p>So Girl said, “ Let’s remains friends. I love our friendship.”</p>
+
+                <p>After that huge rejection, Boy messed up. He no longer able to stay and Boy needed some spaces.</p>
+
+                <p>That’s when Girl felt like losing somebody she really cares. A friend. A best friend. Girl was still in denial.</p>
+
+                <p>Girl tried to make sure that nothing will change between them.</p>
+
+                <p>After all, they are still best friends.</p>
               </div>
 
             </div>
@@ -162,20 +179,34 @@
               </div>
 
               <div class="intro_story">
-                <p>On June 2016, girl was having her last semester in university, boy came confessing to girl.</p>
-                <p>"Go and ask my parent", girl said.</p>
-                <p>On January 2017, boy finish his last semester in university.</p>
-                <p>From south, he went up north. ALONE. Asking for permission from girl's parents.</p>
-                <p>March 2017, they got engaged.</p>
-                <p>Finally, on December 2017 they are getting married.</p>
-                <p>On January 2017, boy finish his last semester in university.</p>
-                <p>From south, he went up north. ALONE. Asking for permission from girl's parents.</p>
-                <p>March 2017, they got engaged.</p>
-                <p>Finally, on December 2017 they are getting married.</p>
-              </div>
+                <p>They started hanging out again but this time Boy was cold, bald and so different.</p>
 
+                <p>He changed his style as well as his personality. Boy would never meet Girl’s glances.</p>
+
+                <p>Girl felt distant again, she felt like she will lose him again for real. Girl started to question herself. A LOT.</p>
+
+                <p>Is it worth the time and energy to wait for somebody who never thinks of her existence?</p>
+
+                <p>There’s somebody in front of her who still loyal and stands right beside her.</p>
+
+                <p>And that’s when Girl decided, she won’t be happy waiting for someone who does not want her back.</p>
+
+                <p>So Girl said to boy, “ Bro, jom Mamak! ”</p>
+
+                <hr style="width:50%;">
+
+                <p>“ I may not be perfect, you know my flaws, my secrets, what I love and what I hate.</p>
+
+                <p>Give me some chance to know yours too.</p>
+
+                <p>If you sincerely want me,
+
+                go and ask my parents.”</p>
+
+              </div>
+              <br>
               <div class="">
-                <a href="#story" id="full_story_link_close">Close all chapters</a>
+                <a href="#story" id="full_story_link_close">Close story</a>
               </div>
 
             </div>
@@ -187,7 +218,11 @@
             <div class="col">
 
               <div>
-                <h1 class="title">Bride & Groom</h1>
+                <h1 class="title" style="margin-top:1em;">Bride & Groom</h1>
+              </div>
+
+              <div class="">
+                <img src="{{ asset('images/bridegroom-01.png') }}" alt="" width="40%">
               </div>
 
             </div>
@@ -248,7 +283,7 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="">@{{ rsvp }} @{{ rsvpName }}</label>
+                    <label v-if="show">@{{ rsvp }} @{{ rsvpName }}</label>
                   </div>
                   <div class="form-group">
                     <div class="row justify-content-center">
@@ -265,7 +300,7 @@
                   <div class="form-group">
                     <div class="row justify-content-center">
                       <div class="col-6" style="background-color: #05341f;">
-                        <a href="#wishes" class="btn btn-block" style="background-color: transparent; color: white;">Send Wedding Wishes</a>
+                        <a href="#wishes" class="btn btn-block" style="background-color: transparent; color: white;">Wedding Wishes</a>
                       </div>
                     </div>
                   </div>
@@ -377,13 +412,7 @@
 
       $( "#full_story_link1" ).click(function() {
         $( "#story_chapter1" ).show();
-      });
-
-      $( "#full_story_link2" ).click(function() {
         $( "#story_chapter2" ).show();
-      });
-
-      $( "#full_story_link3" ).click(function() {
         $( "#story_chapter3" ).show();
       });
 
