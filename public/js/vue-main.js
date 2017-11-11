@@ -23,7 +23,7 @@ var app = new Vue({
       }
     },
     isDisabled2 () {
-      if (this.rsvpName.length > 3 && this.wishMessage.length > 3) {
+      if (this.rsvpName.length > 1 && this.wishMessage.length > 1) {
         return false;
       } else {
         return true;

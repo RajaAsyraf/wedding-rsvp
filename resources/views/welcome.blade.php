@@ -228,21 +228,21 @@
             </div>
           </div>
           <div class="row" style="margin-right: 10px; margin-left: 10px;">
-            <div class="col-sm col-md-3" style="background-color: Gainsboro; padding-top: 10px; padding-bottom: 10px;">
+            <div class="col-sm col-md-3" style="background-color: rgba(220,220,220, 0.5); padding-top: 10px; padding-bottom: 10px;">
               <img src="{{ asset('images/bride.jpg') }}" alt="" width="100%">
             </div>
-            <div class="col-sm col-md-3 text-justify" style="padding-top: 3em; background-color: Gainsboro;">
+            <div class="col-sm col-md-3 text-justify" style="padding-top: 3em; background-color: rgba(220,220,220, 0.5);">
               <h4>Nur Fadzlina</h4>
               <p><small>The Bride</small></p>
               <p><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;Asyraf and I are not that sweet-cheesy kind of couple cuz we never started that way. So yeah, I am the mischievous ones while he's the well-behaved kind. So very often in our relationship, I am the troublemaker and he's the problem-solver. Never thought I will get married in my early 20's but he managed to change my mind. I wish nothing but the best for our next steps. More ups, more downs, more adventure!&nbsp;&nbsp;<i class="fa fa-quote-right" aria-hidden="true"></i></p>
             </div>
 
-            <div class="col-sm col-md-3 text-right" style="padding-top: 3em; background-color: WhiteSmoke;">
+            <div class="col-sm col-md-3 text-right" style="padding-top: 3em; background-color: rgba(245,245,245, 0.8);">
               <h4>Raja Mohamad Asyraf</h4>
               <p><small>The Groom</small></p>
               <p class="text-justify"><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;She taught me many things in life. With endless motivations and supports during my study until the beginning of my career, she always there for me to share her honest thoughts. Being in a relationship with her is totally a different experience, it was like a roller-coaster! She loves adventure and I am enjoying it! Getting married to my best friend is like a dream come true. This is just a new beginning of our journey, hope for the best!&nbsp;&nbsp;<i class="fa fa-quote-right" aria-hidden="true"></i></p>
             </div>
-            <div class="col-sm col-md-3" style="background-color: WhiteSmoke; padding-top: 10px; padding-bottom: 10px;">
+            <div class="col-sm col-md-3" style="background-color: rgba(245,245,245, 0.8); padding-top: 10px; padding-bottom: 10px;">
               <img src="{{ asset('images/groom.jpg') }}" alt="" width="100%">
             </div>
 
@@ -253,11 +253,14 @@
           <div class="row">
             <div class="col">
 
-              <h1 class="title">Ceremony Flow</h1>
+              <h1 class="title" style="margin-top:0.1em;">Ceremony Flow</h1>
 
-              <div style="padding-top: 10em;">
+              <div style="padding-top: 5em;">
                 <h4>Banquet Feast: 12pm till 5pm</h4>
                 <h4>Arrival of Bride & Groom: 2pm</h4>
+                <br><br><br><br>
+                <p>Exciting amusement</p>
+                <p>Cake cutting ceremony | Photobooth | Confectionaries | Dessert Stations</p>
               </div>
 
             </div>
@@ -270,13 +273,95 @@
               <div>
                   <h1 class="title">Venue</h1>
               </div>
-              <p>Zee Homestay, 65, Jalan Dato' Abdul Rahman 1/2, Mentaloon, 05250, Alor Setar</p><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm col-md-7" style="padding-left: 60px;">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7296.111221073366!2d100.36947791924524!3d6.1629298646845925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b5b134d012467%3A0x6c1c2418261b7a90!2sZee+Homestay!5e0!3m2!1sen!2smy!4v1508561172847" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm col-md-5 text-left" style="padding-right: 20px;">
+              <h4>Recommended Accomodations</h4>
+              <p>
+                <ul>
+                  <li>
+                    <a href="https://www.airasiago.com.my/Kampung-Titi-Gajah-Hotels-TH-Hotel-Convention-Centre-Alor-Setar.h8349584.Hotel-Information?mdpcid=AAG-MY.META.TRIVAGO.CORESEARCH.HOTEL&abax=15859.0&mctc=5&langid=2057&trv_curr=MYR&chkin=08/12/2017&chkout=09/12/2017&rateplanid=207960335_24&trv_dp=155&rm1=a2&paandi=true" target="_blank">TH Hotel & Convention Centre Alor Setar</a> &nbsp;
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <a href="https://www.expedia.com.my/Kampung-Permatang-Bogak-Hotels-Hotel-Grand-Crystal-Kedah.h4318318.Hotel-Information?chkin=08%2F12%2F2017&chkout=09%2F12%2F2017&rm1=a2&regionId=399&hwrqCacheKey=2097e1c4-c966-4282-91f7-d4875689f05cHWRQ1510381776860&vip=false&c=b04b1222-c941-4057-a574-beff19b6ac8a&mctc=5&exp_dp=117.92&exp_ts=1510381778924&exp_curr=MYR&swpToggleOn=false&exp_pg=HSR" target="_blank">Hotel Grand Crystal Kedah</a> &nbsp;
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <a href="https://www.booking.com/hotel/my/the-leverage-business-kuala-kedah.en-gb.html?aid=383725;label=metatrivago-hotel-428022_xqdz-e19396b935d472c1748f7de8bcca64cb_los-1_nrm-1_gstadt-2_gstkid-0_curr-myr_lang-en;sid=19c8f5c1b8e338f461a97ef1d70fb412;all_sr_blocks=42802201_91048224_0_0_0;checkin=2017-12-08;checkout=2017-12-09;dest_id=-2401814;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=42802201_91048224_0_0_0;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;show_room=42802201_91048224_0_0_0;srepoch=1510381788;srfid=61248192a3a2048abd4ed599581c31c956db835cX1;srpvid=87032dadb3a500d8;type=total;ucfs=1&#hotelTmpl" target="_blank">The Leverage Business Hotel - Kuala Kedah</a> &nbsp;
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <a href="https://www.airasiago.com.my/Kampung-Permatang-Bogak-Hotels-Fuller-Hotel.h10962526.Hotel-Information?mdpcid=AAG-MY.META.TRIVAGO.CORESEARCH.HOTEL&abax=15859.0&mctc=5&langid=2057&trv_curr=MYR&chkin=08/12/2017&chkout=09/12/2017&rateplanid=211719161_24&trv_dp=109&rm1=a2&paandi=true" target="_blank">Fuller Hotel</a> &nbsp;
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <a href="https://www.expedia.com.my/Taman-Senangin-Hotels-Tanjak-Motel-Hostel.h17416896.Hotel-Information?chkin=08%2F12%2F2017&chkout=09%2F12%2F2017&rm1=a2&regionId=399&hwrqCacheKey=2097e1c4-c966-4282-91f7-d4875689f05cHWRQ1510382133232&vip=false&c=cf91b61b-2d25-4173-ba14-fdf01a3ca222&mctc=5&exp_dp=47.22&exp_ts=1510382134213&exp_curr=MYR&swpToggleOn=false&exp_pg=HSR" target="_blank">Tanjak Motel - Hostel</a> &nbsp;
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </li>
+                </ul>
+              </p>
+              <h4>Recommended Transportation</h4>
+              <p>
+                <ul>
+                  <li>Flight (Sultan Abdul Halim Airport, Alor Setar)</li>
+                  <li>ETS (Anak Bukit Railway Station, Alor Setar)</li>
+                  <li>Bus Express (Shahab Perdana Bus Terminal, Alor Setar)</li>
+                </ul>
+              </p>
+              <h4>Recommended Place to Eat</h4>
+              <ul>
+                <li>
+                  <a href="https://www.google.com/maps/place/Laksa+Ikan+Sekoq+-+Baru/@6.1339725,100.3517549,15z/data=!4m8!1m2!2m1!1sLaksa+Ikan+Sekoq+-+Baru,+255,+Taman+Wira+Mergong,+05350+Alor+Setar,+Kedah!3m4!1s0x304b5b4e14fa0779:0xdd2059d623051b8c!8m2!3d6.1429706!4d100.36227" target="_blank">Laksa Ikan Sekoq</a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/maps/place/Mee+Sham/@6.1766403,100.3530059,17z/data=!3m1!4b1!4m5!3m4!1s0x304b60bb421ff261:0x27cfaed8e286db9d!8m2!3d6.176635!4d100.3551946" target="_blank">Roti Doll Mee Sham</a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/maps/place/NASI+LEMAK+ROYALE/@6.1057171,100.3628601,17.86z/data=!4m5!3m4!1s0x304b4491d0e53095:0xefca2a80c6127edc!8m2!3d6.105683!4d100.364323" target="_blank">Nasi Lemak Royale Hijau Kuning</a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/maps/place/Star+Avenue+(Food+Court)/@6.0981783,100.3601426,17z/data=!3m1!4b1!4m5!3m4!1s0x304b448892962545:0xcb2ec45f1ab67a74!8m2!3d6.098173!4d100.3623313" target="_blank">Roti Celaru Star Avenue</a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/maps/place/Iman+Kuey+Teow/@6.1435646,100.3625271,17z/data=!3m1!4b1!4m5!3m4!1s0x304b5b4eea86ef4d:0xe0c2310acc001659!8m2!3d6.1435646!4d100.3647158" target="_blank">Kuey Teow Iman</a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/maps/place/Mee+Udang+Kg+Kuala+Dulang+Kecik/@5.8490742,100.3649733,17.45z/data=!4m12!1m6!3m5!1s0x304b3ba563963a87:0xdfa6827eb57d9c59!2sMee+Udang!8m2!3d5.8530279!4d100.3832123!3m4!1s0x304b3b9c6c4a45d3:0x4484c7c6a20cd55f!8m2!3d5.8490742!4d100.3649736" target="_blank">Mee Udang D'ombak Lara, Kg. Kuala Dulang Kecil</a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/maps/place/Medan+Selera+PKNK/@6.1196572,100.3703186,13z/data=!4m5!3m4!1s0x0:0xc4299dca3b08bbcd!8m2!3d6.1377706!4d100.3839657" target="_blank">Laksa Hadyai, Medan Selera PKNK</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
         <div id="app"> <!-- Vue component -->
-          <div class="container-fluid text-center full-height" id="rsvp" style="padding-top: 10em;">
+          <div class="container-fluid text-center full-height" id="rsvp" style="padding-top: 8em;">
             <div class="row justify-content-center">
               <div class="col-sm col-md-8 col-lg-6 col-xl-6">
 
@@ -318,7 +403,7 @@
 
                   <div class="alert alert-success" v-if="sendRSVP">
                     <p>Thank you for your response, @{{ rsvpName }}.</p>
-                    <p>Would you like to send wedding wishes to us?</p>
+                    <p>Would you like to send us a wish?</p>
                     <div class="form-group">
                       <div class="row justify-content-center">
                         <div class="col-6" style="background-color: #05341f;">
@@ -332,7 +417,7 @@
               </div>
             </div>
           </div>
-          <div class="container-fluid text-center full-height" id="wishes" style="position: relative;">
+          <div class="container-fluid text-center full-height" id="wishes" >
             <div class="row justify-content-center">
               <div class="col-sm col-md-8 col-lg-6 col-xl-6">
                 <h1 class="title">
@@ -345,26 +430,28 @@
                       <input v-model="rsvpName" type="text" placeholder="Your name" class="form-control text-center" required></input>
                     </div>
                     <div class="form-group">
-                      <textarea v-model="wishMessage" class="form-control text-center" rows="10" cols="50" placeholder="Your message" style="resize: none;" required></textarea>
+                      <textarea v-model="wishMessage" class="form-control text-center" rows="8" cols="50" placeholder="Your message" style="resize: none;" required></textarea>
                     </div>
                     <div class="form-group">
                       <div class="row justify-content-center">
                         <div class="col-6" style="background-color: #05341f;">
-                          <input type="submit" name="buttonSendWish" v-bind:value="wishStatus" style="color: white; background-color: transparent;" class="btn btn-block" :class="{ disabled: isDisabled2 }" :disabled="isDisabled">
+                          <input type="submit" name="buttonSendWish" v-bind:value="wishStatus" style="color: white; background-color: transparent;" class="btn btn-block" :class="{ disabled: isDisabled2 }" :disabled="isDisabled2">
                         </div>
                       </div>
                     </div>
                   </form>
                   <div class="alert alert-success" v-if="sendWish">
-                    <p>Great! Thank you so much for your wishes, @{{ wishName }}.</p>
+                    <p>Great! Thank you so much for your wish, @{{ rsvpName }}.</p>
+                    <p>We are going to put your wish up on our cherish board.</p>
                   </div>
                 </div>
               </div>
             </div>
             <div class="">
-              <div style="margin-top: 2em; opacity: 0.5;">
-                <p><small> Design by The Bride & Develop by The Groom</small></p>
+              <div style="margin-top: 1em; opacity: 1;">
+                <p><small> Designed by The Bride & Developed by The Groom</small></p>
               </div>
+              <br><br><br><br><br>
             </div>
             <!-- <div style="position: absolute; bottom: 0; left:0; right:0; opacity: 0.5;"><p><small>All rights belong to us.</small></p><p><small> Design by The Bride & Develop by The Groom</small></p></div> -->
           </div>

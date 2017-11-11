@@ -69,13 +69,13 @@ html, body {
 }
 
 #flow{
-  background-image: url("/images/row4-01.png");
+  background-image: url("/images/row5-01.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
 }
 
 #venue{
-  background-image: url("/images/row5-01.png");
+  background-image: url("/images/row4-01.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -89,8 +89,9 @@ html, body {
 #wishes{
   background-image: url("/images/row7-01.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
   background-position: bottom;
+  min-height: 100vh;
 }
 
 a, a:hover {
