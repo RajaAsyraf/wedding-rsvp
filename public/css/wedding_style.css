@@ -193,6 +193,27 @@ a, a:hover {
   }
 }
 
+@media only screen and (max-width: 736px) {
+  .hamburger{
+    display: inline;
+  }
+
+  .all-links{
+    display: none;
+  }
+
+  .menu ul {
+    list-style-type: none;
+    list-style-image: none;
+    -webkit-padding-start: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 670px) {
+
+}
+
 @media only screen and (max-width: 480px) {
   #bridegroom-main{
     display: flex;
@@ -215,10 +236,6 @@ a, a:hover {
   .side-border{
     border-right: 0;
     border-left: 0;
-  }
-
-  .row-your-boat{
-    background:transparent;
   }
 
   body{

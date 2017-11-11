@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}" />
         <meta name="description" content="Invitation to the wedding of Nur Fadzlina & Raja Mohamad Asyraf.">
-        <title>Fadzlina x Asyraf</title>
+        <meta property="og:image" content="{{ asset('image/ogimagenew-03.png') }}"/>
+        <title>Fadzlina & Asyraf</title>
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
@@ -299,8 +300,8 @@
             </div>
           </div>
           <br>
-          <div class="row row-your-boat" style="margin-left: 1px; margin-right: 1px; padding-top: 10px; padding-bottom: 10px;">
-            <div class="col-sm col-md-4 text-left middle-gap">
+          <div class="row" style="margin-left: 1px; margin-right: 1px; padding-top: 10px; padding-bottom: 10px;">
+            <div class="col-sm col-md-6 text-left middle-gap  row-your-boat">
               <h4 class="text-center recommendation-title">Recommended Accomodations</h4>
               <p>
                 <ul>
@@ -322,7 +323,7 @@
                 </ul>
               </p>
             </div>
-            <div class="col-sm col-md-4 text-left middle-gap">
+            <!-- <div class="col-sm col-md-4 text-left middle-gap">
               <div class="side-border" style="height:100%;">
                 <h4 class="text-center recommendation-title">Recommended Transportations</h4>
                 <p>
@@ -334,8 +335,8 @@
                   </ul>
                 </p>
               </div>
-            </div>
-            <div class="col-sm col-md-4 text-left middle-gap">
+            </div> -->
+            <div class="col-sm col-md-6 text-left middle-gap  row-your-boat">
               <h4 class="text-center recommendation-title">Recommended Cuisines</h4>
               <ul id="cuisines">
                 <li>
