@@ -203,7 +203,7 @@
 
                 <hr style="width:50%;">
 
-                <p>“ I may not be perfect, you know my flaws, my secrets, what I love and what I hate. Give me some chance to know yours too.</p>
+                <p>“ I may not be perfect, you know my flaws, my secrets, what I love and what I hate. Give me a chance to know yours too.</p>
 
                 <p>If you sincerely want me,
 
@@ -227,7 +227,7 @@
               </div>
             </div>
           </div>
-          <div class="row" style="margin-right: 10px; margin-left: 10px;">
+          <div class="row" style="margin-right: 10px; margin-left: 10px;" id="bridegroom-main">
             <div class="col-sm col-md-3" style="background-color: rgba(220,220,220, 0.5); padding-top: 10px; padding-bottom: 10px;">
               <img src="{{ asset('images/bride.jpg') }}" alt="" width="100%">
             </div>
@@ -247,6 +247,25 @@
             </div>
 
           </div>
+          <!-- ipad -->
+          <div class="row bridegroom-ipad">
+            <div class="col-6" style="background-color: rgba(220,220,220, 0.5); padding-top: 10px; padding-bottom: 10px; padding-right:0px;">
+              <img src="{{ asset('images/bride.jpg') }}" alt="" width="100%">
+            </div>
+            <div class="col-6 text-left" style="padding-top: 8em; background-color: rgba(220,220,220, 0.5);">
+              <h4>Nur Fadzlina</h4>
+              <p><small>The Bride</small></p>
+              <p class="text-justify"><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;Asyraf and I are not that sweet-cheesy kind of couple cuz we never started that way. So yeah, I am the mischievous ones while he's the well-behaved kind. So very often in our relationship, I am the troublemaker and he's the problem-solver. Never thought I will get married in my early 20's but he managed to change my mind. I wish nothing but the best for our next steps. More ups, more downs, more adventure!&nbsp;&nbsp;<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+            </div>
+            <div class="col-6 text-right" style="padding-top: 8em; background-color: rgba(245,245,245, 0.5);">
+              <h4>Raja Mohamad Asyraf</h4>
+              <p><small>The Groom</small></p>
+              <p class="text-justify"><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;She taught me many things in life. With endless motivations and supports during my study until the beginning of my career, she always there for me to share her honest thoughts. Being in a relationship with her is totally a different experience, it was like a roller-coaster! She loves adventure and I am enjoying it! Getting married to my best friend is like a dream come true. This is just a new beginning of our journey, hope for the best!&nbsp;&nbsp;<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+            </div>
+            <div class="col-6" style="background-color: rgba(245,245,245, 0.5); padding-top: 10px; padding-bottom: 10px; padding-left:0px;">
+              <img src="{{ asset('images/groom.jpg') }}" alt="" width="100%">
+            </div>
+          </div>
         </div>
 
         <div class="container-fluid text-center full-height" id="flow" style="padding-top: 10em;">
@@ -259,7 +278,7 @@
                 <h4>Banquet Feast: 12pm till 5pm</h4>
                 <h4>Arrival of Bride & Groom: 2pm</h4>
                 <br><br><br><br>
-                <p>Exciting amusement</p>
+                <p>Exciting amusements</p>
                 <p>Cake cutting ceremony | Photobooth | Confectionaries | Dessert Stations</p>
               </div>
 
@@ -276,64 +295,49 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-sm col-md-7" style="padding-left: 60px;">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7296.111221073366!2d100.36947791924524!3d6.1629298646845925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b5b134d012467%3A0x6c1c2418261b7a90!2sZee+Homestay!5e0!3m2!1sen!2smy!4v1508561172847" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="col">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7296.111221073366!2d100.36947791924524!3d6.1629298646845925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b5b134d012467%3A0x6c1c2418261b7a90!2sZee+Homestay!5e0!3m2!1sen!2smy!4v1508561172847" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
-            <div class="col-sm col-md-5 text-left" style="padding-right: 20px;">
-              <h4>Recommended Accomodations</h4>
+          </div>
+          <br>
+          <div class="row" style="margin-left: 1px; margin-right: 1px; background:whitesmoke; padding-top: 10px; padding-bottom: 10px;">
+            <div class="col-sm col-md-4 text-left">
+              <h4 class="text-center recommendation-title">Recommended Accomodations</h4>
               <p>
                 <ul>
                   <li>
-                    <a href="https://www.airasiago.com.my/Kampung-Titi-Gajah-Hotels-TH-Hotel-Convention-Centre-Alor-Setar.h8349584.Hotel-Information?mdpcid=AAG-MY.META.TRIVAGO.CORESEARCH.HOTEL&abax=15859.0&mctc=5&langid=2057&trv_curr=MYR&chkin=08/12/2017&chkout=09/12/2017&rateplanid=207960335_24&trv_dp=155&rm1=a2&paandi=true" target="_blank">TH Hotel & Convention Centre Alor Setar</a> &nbsp;
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <a href="https://www.airasiago.com.my/Kampung-Titi-Gajah-Hotels-TH-Hotel-Convention-Centre-Alor-Setar.h8349584.Hotel-Information?mdpcid=AAG-MY.META.TRIVAGO.CORESEARCH.HOTEL&abax=15859.0&mctc=5&langid=2057&trv_curr=MYR&chkin=08/12/2017&chkout=09/12/2017&rateplanid=207960335_24&trv_dp=155&rm1=a2&paandi=true" target="_blank">TH Hotel & Convention Centre Alor Setar</a>
                   </li>
                   <li>
-                    <a href="https://www.expedia.com.my/Kampung-Permatang-Bogak-Hotels-Hotel-Grand-Crystal-Kedah.h4318318.Hotel-Information?chkin=08%2F12%2F2017&chkout=09%2F12%2F2017&rm1=a2&regionId=399&hwrqCacheKey=2097e1c4-c966-4282-91f7-d4875689f05cHWRQ1510381776860&vip=false&c=b04b1222-c941-4057-a574-beff19b6ac8a&mctc=5&exp_dp=117.92&exp_ts=1510381778924&exp_curr=MYR&swpToggleOn=false&exp_pg=HSR" target="_blank">Hotel Grand Crystal Kedah</a> &nbsp;
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <a href="https://www.expedia.com.my/Kampung-Permatang-Bogak-Hotels-Hotel-Grand-Crystal-Kedah.h4318318.Hotel-Information?chkin=08%2F12%2F2017&chkout=09%2F12%2F2017&rm1=a2&regionId=399&hwrqCacheKey=2097e1c4-c966-4282-91f7-d4875689f05cHWRQ1510381776860&vip=false&c=b04b1222-c941-4057-a574-beff19b6ac8a&mctc=5&exp_dp=117.92&exp_ts=1510381778924&exp_curr=MYR&swpToggleOn=false&exp_pg=HSR" target="_blank">Hotel Grand Crystal Kedah</a>
                   </li>
                   <li>
-                    <a href="https://www.booking.com/hotel/my/the-leverage-business-kuala-kedah.en-gb.html?aid=383725;label=metatrivago-hotel-428022_xqdz-e19396b935d472c1748f7de8bcca64cb_los-1_nrm-1_gstadt-2_gstkid-0_curr-myr_lang-en;sid=19c8f5c1b8e338f461a97ef1d70fb412;all_sr_blocks=42802201_91048224_0_0_0;checkin=2017-12-08;checkout=2017-12-09;dest_id=-2401814;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=42802201_91048224_0_0_0;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;show_room=42802201_91048224_0_0_0;srepoch=1510381788;srfid=61248192a3a2048abd4ed599581c31c956db835cX1;srpvid=87032dadb3a500d8;type=total;ucfs=1&#hotelTmpl" target="_blank">The Leverage Business Hotel - Kuala Kedah</a> &nbsp;
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <a href="https://www.booking.com/hotel/my/the-leverage-business-kuala-kedah.en-gb.html?aid=383725;label=metatrivago-hotel-428022_xqdz-e19396b935d472c1748f7de8bcca64cb_los-1_nrm-1_gstadt-2_gstkid-0_curr-myr_lang-en;sid=19c8f5c1b8e338f461a97ef1d70fb412;all_sr_blocks=42802201_91048224_0_0_0;checkin=2017-12-08;checkout=2017-12-09;dest_id=-2401814;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=42802201_91048224_0_0_0;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;show_room=42802201_91048224_0_0_0;srepoch=1510381788;srfid=61248192a3a2048abd4ed599581c31c956db835cX1;srpvid=87032dadb3a500d8;type=total;ucfs=1&#hotelTmpl" target="_blank">The Leverage Business Hotel - Kuala Kedah</a>
                   </li>
                   <li>
-                    <a href="https://www.airasiago.com.my/Kampung-Permatang-Bogak-Hotels-Fuller-Hotel.h10962526.Hotel-Information?mdpcid=AAG-MY.META.TRIVAGO.CORESEARCH.HOTEL&abax=15859.0&mctc=5&langid=2057&trv_curr=MYR&chkin=08/12/2017&chkout=09/12/2017&rateplanid=211719161_24&trv_dp=109&rm1=a2&paandi=true" target="_blank">Fuller Hotel</a> &nbsp;
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <a href="https://www.airasiago.com.my/Kampung-Permatang-Bogak-Hotels-Fuller-Hotel.h10962526.Hotel-Information?mdpcid=AAG-MY.META.TRIVAGO.CORESEARCH.HOTEL&abax=15859.0&mctc=5&langid=2057&trv_curr=MYR&chkin=08/12/2017&chkout=09/12/2017&rateplanid=211719161_24&trv_dp=109&rm1=a2&paandi=true" target="_blank">Fuller Hotel</a>
                   </li>
                   <li>
-                    <a href="https://www.expedia.com.my/Taman-Senangin-Hotels-Tanjak-Motel-Hostel.h17416896.Hotel-Information?chkin=08%2F12%2F2017&chkout=09%2F12%2F2017&rm1=a2&regionId=399&hwrqCacheKey=2097e1c4-c966-4282-91f7-d4875689f05cHWRQ1510382133232&vip=false&c=cf91b61b-2d25-4173-ba14-fdf01a3ca222&mctc=5&exp_dp=47.22&exp_ts=1510382134213&exp_curr=MYR&swpToggleOn=false&exp_pg=HSR" target="_blank">Tanjak Motel - Hostel</a> &nbsp;
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <a href="https://www.expedia.com.my/Taman-Senangin-Hotels-Tanjak-Motel-Hostel.h17416896.Hotel-Information?chkin=08%2F12%2F2017&chkout=09%2F12%2F2017&rm1=a2&regionId=399&hwrqCacheKey=2097e1c4-c966-4282-91f7-d4875689f05cHWRQ1510382133232&vip=false&c=cf91b61b-2d25-4173-ba14-fdf01a3ca222&mctc=5&exp_dp=47.22&exp_ts=1510382134213&exp_curr=MYR&swpToggleOn=false&exp_pg=HSR" target="_blank">Tanjak Motel - Hostel</a>
                   </li>
                 </ul>
               </p>
-              <h4>Recommended Transportation</h4>
-              <p>
-                <ul>
-                  <li>Flight (Sultan Abdul Halim Airport, Alor Setar)</li>
-                  <li>ETS (Anak Bukit Railway Station, Alor Setar)</li>
-                  <li>Bus Express (Shahab Perdana Bus Terminal, Alor Setar)</li>
-                </ul>
-              </p>
-              <h4>Recommended Place to Eat</h4>
+            </div>
+            <div class="col-sm col-md-4 text-left" style="padding: 0;">
+              <div class="" style="border-left: 1px solid #75a941; border-right: 1px solid #75a941; height:100%; width: 100%;">
+                <h4 class="text-center recommendation-title">Recommended Transportations</h4>
+                <p>
+                  <ul>
+                    <li>Flight (Sultan Abdul Halim Airport, Alor Setar)</li>
+                    <li>ETS (Anak Bukit Railway Station, Alor Setar)</li>
+                    <li>Bus Express (Shahab Perdana Bus Terminal, Alor Setar)</li>
+                    <li>Taxi (Grab/Uber is unavailable)</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <div class="col-sm col-md-4 text-left">
+              <h4 class="text-center recommendation-title">Recommended Foods</h4>
               <ul>
                 <li>
                   <a href="https://www.google.com/maps/place/Laksa+Ikan+Sekoq+-+Baru/@6.1339725,100.3517549,15z/data=!4m8!1m2!2m1!1sLaksa+Ikan+Sekoq+-+Baru,+255,+Taman+Wira+Mergong,+05350+Alor+Setar,+Kedah!3m4!1s0x304b5b4e14fa0779:0xdd2059d623051b8c!8m2!3d6.1429706!4d100.36227" target="_blank">Laksa Ikan Sekoq</a>
