@@ -8,12 +8,22 @@ var app = new Vue({
     rsvpName: '',
     sendRSVP: false,
     rsvpStatus: "Send",
-    show: false
+    wishName: '',
+    wishMessage: '',
+    sendWish: false,
+    wishStatus: 'Send'
   },
 
   computed: {
     isDisabled () {
       if (this.rsvpName.length > 1 && this.rsvp.length > 1) {
+        return false;
+      } else {
+        return true;
+      }
+    },
+    isDisabled2 () {
+      if (this.rsvpName.length > 3 && this.wishMessage.length > 3) {
         return false;
       } else {
         return true;
@@ -37,34 +47,10 @@ var app = new Vue({
       }).then(() => {
           // always executed
       });
-    }
-  }
-});
-
-var app2 = new Vue({
-  el: '#app2',
-
-  data: {
-    wishName: '',
-    wishMessage: '',
-    sendWish: false,
-    wishStatus: 'Send'
-  },
-
-  computed: {
-    isDisabled () {
-      if (this.wishName.length > 3 && this.wishMessage.length > 3) {
-        return false;
-      } else {
-        return true;
-      }
-    }
-  },
-
-  methods: {
+    },
     addWish(){
       this.wishStatus = "Submitting...";
-      var postData = {wishName: this.wishName, wishMessage: this.wishMessage};
+      var postData = {wishName: this.rsvpName, wishMessage: this.wishMessage};
 
       axios.post('/api/wish', postData).then((response) => {
           // success
@@ -79,5 +65,4 @@ var app2 = new Vue({
       });
     }
   }
-
 });

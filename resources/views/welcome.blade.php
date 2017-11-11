@@ -114,7 +114,7 @@
                 <h1 class="title" style="margin-top:0;">Chapter 1</h1>
               </div>
 
-              <div class="intro_story">
+              <div class="story1">
                 <p>On 2012, Boy & Girl (both 18 years old) are in the same batch during a preparation program before entering university.</p>
 
                 <p>They barely knew each other's existence except for when they met in the batch gathering every once a year.</p>
@@ -133,6 +133,10 @@
 
                 <p>Little did Girl know, Boy never thought of her as a friend even from the start.</p>
               </div>
+              <br>
+              <div class="">
+                <a href="#story_chapter2" id="full_story_link1"><u>Chapter 2</u></a>
+              </div>
 
             </div>
           </div>
@@ -146,7 +150,7 @@
                 <h1 class="title">Chapter 2</h1>
               </div>
 
-              <div class="intro_story">
+              <div class="story2">
                 <p>Girl started sharing secrets with Boy. She has been crushing on someone for almost 4 years.</p>
 
                 <p>Boy remained calm and became a good listener (at least that’s what Girl thought). Boy knew he was friend zoned by Girl.</p>
@@ -165,6 +169,10 @@
 
                 <p>After all, they are still best friends.</p>
               </div>
+              <br>
+              <div class="">
+                <a href="#story_chapter3" id="full_story_link1"><u>Chapter 3</u></a>
+              </div>
 
             </div>
           </div>
@@ -178,7 +186,7 @@
                 <h1 class="title">Chapter 3</h1>
               </div>
 
-              <div class="intro_story">
+              <div class="story3">
                 <p>They started hanging out again but this time Boy was cold, bald and so different.</p>
 
                 <p>He changed his style as well as his personality. Boy would never meet Girl’s glances.</p>
@@ -195,9 +203,7 @@
 
                 <hr style="width:50%;">
 
-                <p>“ I may not be perfect, you know my flaws, my secrets, what I love and what I hate.</p>
-
-                <p>Give me some chance to know yours too.</p>
+                <p>“ I may not be perfect, you know my flaws, my secrets, what I love and what I hate. Give me some chance to know yours too.</p>
 
                 <p>If you sincerely want me,
 
@@ -216,16 +222,30 @@
         <div class="container-fluid text-center full-height" id="groom">
           <div class="row">
             <div class="col">
-
               <div>
-                <h1 class="title" style="margin-top:1em;">Bride & Groom</h1>
+                <h1 class="title" style="margin-top:0.4em;">Bride & Groom</h1>
               </div>
-
-              <div class="">
-                <img src="{{ asset('images/bridegroom-01.png') }}" alt="" width="40%">
-              </div>
-
             </div>
+          </div>
+          <div class="row" style="margin-right: 10px; margin-left: 10px;">
+            <div class="col-sm col-md-3" style="background-color: Gainsboro; padding-top: 10px; padding-bottom: 10px;">
+              <img src="{{ asset('images/bride.jpg') }}" alt="" width="100%">
+            </div>
+            <div class="col-sm col-md-3 text-justify" style="padding-top: 3em; background-color: Gainsboro;">
+              <h4>Nur Fadzlina</h4>
+              <p><small>The Bride</small></p>
+              <p><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;Asyraf and I are not that sweet-cheesy kind of couple cuz we never started that way. So yeah, I am the mischievous ones while he's the well-behaved kind. So very often in our relationship, I am the troublemaker and he's the problem-solver. Never thought I will get married in my early 20's but he managed to change my mind. I wish nothing but the best for our next steps. More ups, more downs, more adventure!&nbsp;&nbsp;<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+            </div>
+
+            <div class="col-sm col-md-3 text-right" style="padding-top: 3em; background-color: WhiteSmoke;">
+              <h4>Raja Mohamad Asyraf</h4>
+              <p><small>The Groom</small></p>
+              <p class="text-justify"><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;She taught me many things in life. With endless motivations and supports during my study until the beginning of my career, she always there for me to share her honest thoughts. Being in a relationship with her is totally a different experience, it was like a roller-coaster! She loves adventure and I am enjoying it! Getting married to my best friend is like a dream come true. This is just a new beginning of our journey, hope for the best!&nbsp;&nbsp;<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+            </div>
+            <div class="col-sm col-md-3" style="background-color: WhiteSmoke; padding-top: 10px; padding-bottom: 10px;">
+              <img src="{{ asset('images/groom.jpg') }}" alt="" width="100%">
+            </div>
+
           </div>
         </div>
 
@@ -236,115 +256,118 @@
               <h1 class="title">Ceremony Flow</h1>
 
               <div style="padding-top: 10em;">
-                <p>Banquet Feast: 12pm till 5pm</p>
-                <p>Arrival of Bride & Groom: 2pm</p>
+                <h4>Banquet Feast: 12pm till 5pm</h4>
+                <h4>Arrival of Bride & Groom: 2pm</h4>
               </div>
 
             </div>
           </div>
         </div>
 
-        <div class="container-fluid text-center full-height" id="venue">
+        <div class="container-fluid text-center full-height" id="venue" style="padding-top: 4em;">
           <div class="row">
             <div class="col">
               <div>
                   <h1 class="title">Venue</h1>
               </div>
-              <h3>Zee Homestay, Alor Setar</h2><br>
+              <p>Zee Homestay, 65, Jalan Dato' Abdul Rahman 1/2, Mentaloon, 05250, Alor Setar</p><br>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7296.111221073366!2d100.36947791924524!3d6.1629298646845925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b5b134d012467%3A0x6c1c2418261b7a90!2sZee+Homestay!5e0!3m2!1sen!2smy!4v1508561172847" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
-        <div class="container-fluid text-center full-height" id="rsvp" style="padding-top: 10em;">
-          <div class="row justify-content-center">
-            <div class="col-sm col-md-8 col-lg-6 col-xl-6">
+        <div id="app"> <!-- Vue component -->
+          <div class="container-fluid text-center full-height" id="rsvp" style="padding-top: 10em;">
+            <div class="row justify-content-center">
+              <div class="col-sm col-md-8 col-lg-6 col-xl-6">
 
-              <h1 class="title">RSVP</h1>
+                <h1 class="title" title="The French expression 'répondez s'il vous plaît', meaning 'please respond'.">RSVP</h1>
 
-              <div id="app" style="padding-top: 5em;">
-                <form v-on:submit.prevent="addRSVP()" v-if="!sendRSVP">
+                <div style="padding-top: 5em;">
+                  <form v-on:submit.prevent="addRSVP()" v-if="!sendRSVP">
 
-                  <div class="form-group">
-                    <div class="row justify-content-center">
-                      <div class="col-8">
-                        <input v-model="rsvpName" type="text" placeholder="Your name" class="form-control text-center" required>
+                    <div class="form-group">
+                      <div class="row justify-content-center">
+                        <div class="col-8">
+                          <input v-model="rsvpName" type="text" placeholder="Your name" class="form-control text-center" required>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="radio">
+                        <input type="radio" id="one" value="Yeayy!!! See you there, " v-model="rsvp" required>
+                        <label for="one">I am coming!</label>
+                      </div>
+                      <div class="radio">
+                        <input type="radio" id="two" value="It'okay, " v-model="rsvp" required>
+                        <label for="two">Sorry, can't make it.</label>
+                      </div>
+                    </div>
+
+                    <div class="form-group" v-if="rsvpName">
+                      <label v-if="rsvp">@{{ rsvp }} @{{ rsvpName }}</label>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row justify-content-center">
+                        <div class="col-6" style="background-color: #05341f;">
+                          <input type="submit" name="buttonAccept" v-bind:value="rsvpStatus" style="color: white; background-color: transparent;" class="btn btn-block" :class="{ disabled: isDisabled }" :disabled="isDisabled">
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+
+                  <div class="alert alert-success" v-if="sendRSVP">
+                    <p>Thank you for your response, @{{ rsvpName }}.</p>
+                    <p>Would you like to send wedding wishes to us?</p>
+                    <div class="form-group">
+                      <div class="row justify-content-center">
+                        <div class="col-6" style="background-color: #05341f;">
+                          <a href="#wishes" class="btn btn-block" style="background-color: transparent; color: white;">Wedding Wishes</a>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class="form-group">
-                    <div class="radio">
-                      <input type="radio" id="one" value="Yeayy!!! See you there, " v-model="rsvp" required>
-                      <label for="one">I am coming!</label>
-                    </div>
-                    <div class="radio">
-                      <input type="radio" id="two" value="It'okay, " v-model="rsvp" required>
-                      <label for="two">Sorry, can't make it.</label>
-                    </div>
-                  </div>
 
-                  <div class="form-group">
-                    <label v-if="show">@{{ rsvp }} @{{ rsvpName }}</label>
-                  </div>
-                  <div class="form-group">
-                    <div class="row justify-content-center">
-                      <div class="col-6" style="background-color: #05341f;">
-                        <input type="submit" name="buttonAccept" v-bind:value="rsvpStatus" style="color: white; background-color: transparent;" class="btn btn-block" :class="{ disabled: isDisabled }" :disabled="isDisabled">
-                      </div>
-                    </div>
-                  </div>
-                </form>
-
-                <div class="alert alert-success" v-if="sendRSVP">
-                  <p>Thank you for your response, @{{ rsvpName }}.</p>
-                  <p>Would you like to send wedding wishes to us?</p>
-                  <div class="form-group">
-                    <div class="row justify-content-center">
-                      <div class="col-6" style="background-color: #05341f;">
-                        <a href="#wishes" class="btn btn-block" style="background-color: transparent; color: white;">Wedding Wishes</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid text-center full-height" id="wishes" style="position: relative;">
-          <div class="row justify-content-center">
-            <div class="col-sm col-md-8 col-lg-6 col-xl-6">
-              <h1 class="title">
-                  Wedding Wishes
-              </h1>
-              <div id="app2">
-                <form v-on:submit.prevent="addWish()" v-if="!sendWish">
-                  <p>Send your wedding wishes to us and we will display it on our special day!</p>
-                  <div class="form-group">
-                    <input v-model="wishName" type="text" placeholder="Your name" class="form-control text-center" required>
-                  </div>
-                  <div class="form-group">
-                    <textarea v-model="wishMessage" class="form-control text-center" rows="10" cols="50" placeholder="Your message" style="resize: none;" required></textarea>
-                  </div>
-                  <div class="form-group">
-                    <div class="row justify-content-center">
-                      <div class="col-6" style="background-color: #05341f;">
-                        <input type="submit" name="buttonSendWish" v-bind:value="wishStatus" style="color: white; background-color: transparent;" class="btn btn-block" :class="{ disabled: isDisabled }" :disabled="isDisabled">
-                      </div>
-                    </div>
-                  </div>
-                </form>
-                <div class="alert alert-success" v-if="sendWish">
-                  <p>Great! Thank you so much for your wishes, @{{ wishName }}.</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="">
-            <div style="margin-top: 2em; opacity: 0.5;">
-              <p><small> Design by The Bride & Develop by The Groom</small></p>
+          <div class="container-fluid text-center full-height" id="wishes" style="position: relative;">
+            <div class="row justify-content-center">
+              <div class="col-sm col-md-8 col-lg-6 col-xl-6">
+                <h1 class="title">
+                    Wedding Wishes
+                </h1>
+                <div>
+                  <form v-on:submit.prevent="addWish()" v-if="!sendWish">
+                    <p>Send your wedding wishes to us and we will display it on our special day!</p>
+                    <div class="form-group">
+                      <input v-model="rsvpName" type="text" placeholder="Your name" class="form-control text-center" required></input>
+                    </div>
+                    <div class="form-group">
+                      <textarea v-model="wishMessage" class="form-control text-center" rows="10" cols="50" placeholder="Your message" style="resize: none;" required></textarea>
+                    </div>
+                    <div class="form-group">
+                      <div class="row justify-content-center">
+                        <div class="col-6" style="background-color: #05341f;">
+                          <input type="submit" name="buttonSendWish" v-bind:value="wishStatus" style="color: white; background-color: transparent;" class="btn btn-block" :class="{ disabled: isDisabled2 }" :disabled="isDisabled">
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="alert alert-success" v-if="sendWish">
+                    <p>Great! Thank you so much for your wishes, @{{ wishName }}.</p>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="">
+              <div style="margin-top: 2em; opacity: 0.5;">
+                <p><small> Design by The Bride & Develop by The Groom</small></p>
+              </div>
+            </div>
+            <!-- <div style="position: absolute; bottom: 0; left:0; right:0; opacity: 0.5;"><p><small>All rights belong to us.</small></p><p><small> Design by The Bride & Develop by The Groom</small></p></div> -->
           </div>
-          <!-- <div style="position: absolute; bottom: 0; left:0; right:0; opacity: 0.5;"><p><small>All rights belong to us.</small></p><p><small> Design by The Bride & Develop by The Groom</small></p></div> -->
         </div>
 
         <a id="back-to-top" href="#" class="btn btn-success btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="fa fa-arrow-up"></span></a>

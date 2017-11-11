@@ -7,12 +7,25 @@ html, body {
     background-image: url("/images/backgrounddark.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
 }
+
+#bridegroomimage{
+  background-image: url("/images/bridegroom-01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50vh;
+}
+
 .full-height {
     padding-top: 8em;
     min-height: 85vh;
+}
+
+#clock{
+  margin-top:0.5em;
 }
 
 #screen-top{
@@ -52,7 +65,7 @@ html, body {
 #groom{
   background-image: url("/images/row3-01.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
 }
 
 #flow{
@@ -214,14 +227,28 @@ a, a:hover {
   margin-top: 4em;
 }
 
+.story1{
+  margin-top: 3em;
+}
+
+.story2{
+  margin-top: 3em;
+}
+
+.story3{
+  margin-top: 2em;
+}
+
 #story_chapter1{
   display: none;
 }
 
 #story_chapter2{
+  padding-top: 5.5em;
   display: none;
 }
 
 #story_chapter3{
+  padding-top: 5.5em;
   display: none;
 }
