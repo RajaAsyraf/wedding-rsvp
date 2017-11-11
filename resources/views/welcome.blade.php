@@ -37,7 +37,6 @@
                 <p class="header-text">Invitation To The Wedding Of</p>
               </div>
               <div>
-                  <!-- <h1 class="main-title">Fadzlina & Asyraf</h1> -->
                   <img class="name-title" src="{{ asset('images/Title-02.png')}}" alt="">
               </div>
               <div class="all-links">
@@ -135,7 +134,7 @@
               </div>
               <br>
               <div class="">
-                <a href="#story_chapter2" id="full_story_link1"><u>Chapter 2</u></a>
+                <a href="#story_chapter2" class="full_story_link1"><u>Chapter 2</u></a>
               </div>
 
             </div>
@@ -171,7 +170,7 @@
               </div>
               <br>
               <div class="">
-                <a href="#story_chapter3" id="full_story_link1"><u>Chapter 3</u></a>
+                <a href="#story_chapter3" class="full_story_link1"><u>Chapter 3</u></a>
               </div>
 
             </div>
@@ -229,12 +228,12 @@
           </div>
           <div class="row" style="margin-right: 10px; margin-left: 10px;" id="bridegroom-main">
             <div class="col-sm col-md-3" style="background-color: rgba(220,220,220, 0.5); padding-top: 10px; padding-bottom: 10px;">
-              <img src="{{ asset('images/bride.jpg') }}" alt="" width="100%">
+              <img src="{{ asset('images/bride.png')}}" width="100%">
             </div>
             <div class="col-sm col-md-3 text-justify" style="padding-top: 3em; background-color: rgba(220,220,220, 0.5);">
               <h4>Nur Fadzlina</h4>
               <p><small>The Bride</small></p>
-              <p><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;Asyraf and I are not that sweet-cheesy kind of couple cuz we never started that way. So yeah, I am the mischievous ones while he's the well-behaved kind. So very often in our relationship, I am the troublemaker and he's the problem-solver. Never thought I will get married in my early 20's but he managed to change my mind. I wish nothing but the best for our next steps. More ups, more downs, more adventure!&nbsp;&nbsp;<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+              <p><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;Asyraf and I are not that sweet-cheesy kind of couple cuz we never started that way. So yeah, I am the mischievous ones while he's the well-behaved kind. So very often in our relationship, I am the troublemaker and he's the problem-solver. Never thought I will get married in my early 20's but he managed to change my mind. I wish nothing but the best for our next steps. More ups, less dramas, greater adventure!&nbsp;&nbsp;<i class="fa fa-quote-right" aria-hidden="true"></i></p>
             </div>
 
             <div class="col-sm col-md-3 text-right" style="padding-top: 3em; background-color: rgba(245,245,245, 0.8);">
@@ -243,14 +242,14 @@
               <p class="text-justify"><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;She taught me many things in life. With endless motivations and supports during my study until the beginning of my career, she always there for me to share her honest thoughts. Being in a relationship with her is totally a different experience, it was like a roller-coaster! She loves adventure and I am enjoying it! Getting married to my best friend is like a dream come true. This is just a new beginning of our journey, hope for the best!&nbsp;&nbsp;<i class="fa fa-quote-right" aria-hidden="true"></i></p>
             </div>
             <div class="col-sm col-md-3" style="background-color: rgba(245,245,245, 0.8); padding-top: 10px; padding-bottom: 10px;">
-              <img src="{{ asset('images/groom.jpg') }}" alt="" width="100%">
+              <img src="{{ asset('images/groom.png') }}" alt="" width="100%">
             </div>
 
           </div>
           <!-- ipad -->
           <div class="row bridegroom-ipad">
             <div class="col-6" style="background-color: rgba(220,220,220, 0.5); padding-top: 10px; padding-bottom: 10px; padding-right:0px;">
-              <img src="{{ asset('images/bride.jpg') }}" alt="" width="100%">
+              <img src="{{ asset('images/bride.png') }}" alt="bride" width="100%">
             </div>
             <div class="col-6 text-left" style="padding-top: 8em; background-color: rgba(220,220,220, 0.5);">
               <h4>Nur Fadzlina</h4>
@@ -263,7 +262,7 @@
               <p class="text-justify"><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;She taught me many things in life. With endless motivations and supports during my study until the beginning of my career, she always there for me to share her honest thoughts. Being in a relationship with her is totally a different experience, it was like a roller-coaster! She loves adventure and I am enjoying it! Getting married to my best friend is like a dream come true. This is just a new beginning of our journey, hope for the best!&nbsp;&nbsp;<i class="fa fa-quote-right" aria-hidden="true"></i></p>
             </div>
             <div class="col-6" style="background-color: rgba(245,245,245, 0.5); padding-top: 10px; padding-bottom: 10px; padding-left:0px;">
-              <img src="{{ asset('images/groom.jpg') }}" alt="" width="100%">
+              <img src="{{ asset('images/groom.png') }}" alt="groom" width="100%">
             </div>
           </div>
         </div>
@@ -300,8 +299,8 @@
             </div>
           </div>
           <br>
-          <div class="row" style="margin-left: 1px; margin-right: 1px; background:whitesmoke; padding-top: 10px; padding-bottom: 10px;">
-            <div class="col-sm col-md-4 text-left">
+          <div class="row row-your-boat" style="margin-left: 1px; margin-right: 1px; padding-top: 10px; padding-bottom: 10px;">
+            <div class="col-sm col-md-4 text-left middle-gap">
               <h4 class="text-center recommendation-title">Recommended Accomodations</h4>
               <p>
                 <ul>
@@ -323,11 +322,11 @@
                 </ul>
               </p>
             </div>
-            <div class="col-sm col-md-4 text-left" style="padding: 0;">
-              <div class="" style="border-left: 1px solid #75a941; border-right: 1px solid #75a941; height:100%; width: 100%;">
+            <div class="col-sm col-md-4 text-left middle-gap">
+              <div class="side-border" style="height:100%;">
                 <h4 class="text-center recommendation-title">Recommended Transportations</h4>
                 <p>
-                  <ul>
+                  <ul id="transports">
                     <li>Flight (Sultan Abdul Halim Airport, Alor Setar)</li>
                     <li>ETS (Anak Bukit Railway Station, Alor Setar)</li>
                     <li>Bus Express (Shahab Perdana Bus Terminal, Alor Setar)</li>
@@ -336,9 +335,9 @@
                 </p>
               </div>
             </div>
-            <div class="col-sm col-md-4 text-left">
-              <h4 class="text-center recommendation-title">Recommended Foods</h4>
-              <ul>
+            <div class="col-sm col-md-4 text-left middle-gap">
+              <h4 class="text-center recommendation-title">Recommended Cuisines</h4>
+              <ul id="cuisines">
                 <li>
                   <a href="https://www.google.com/maps/place/Laksa+Ikan+Sekoq+-+Baru/@6.1339725,100.3517549,15z/data=!4m8!1m2!2m1!1sLaksa+Ikan+Sekoq+-+Baru,+255,+Taman+Wira+Mergong,+05350+Alor+Setar,+Kedah!3m4!1s0x304b5b4e14fa0779:0xdd2059d623051b8c!8m2!3d6.1429706!4d100.36227" target="_blank">Laksa Ikan Sekoq</a>
                 </li>
@@ -355,10 +354,10 @@
                   <a href="https://www.google.com/maps/place/Iman+Kuey+Teow/@6.1435646,100.3625271,17z/data=!3m1!4b1!4m5!3m4!1s0x304b5b4eea86ef4d:0xe0c2310acc001659!8m2!3d6.1435646!4d100.3647158" target="_blank">Kuey Teow Iman</a>
                 </li>
                 <li>
-                  <a href="https://www.google.com/maps/place/Mee+Udang+Kg+Kuala+Dulang+Kecik/@5.8490742,100.3649733,17.45z/data=!4m12!1m6!3m5!1s0x304b3ba563963a87:0xdfa6827eb57d9c59!2sMee+Udang!8m2!3d5.8530279!4d100.3832123!3m4!1s0x304b3b9c6c4a45d3:0x4484c7c6a20cd55f!8m2!3d5.8490742!4d100.3649736" target="_blank">Mee Udang D'ombak Lara, Kg. Kuala Dulang Kecil</a>
+                  <a href="https://www.google.com/maps/place/Mee+Udang+Kg+Kuala+Dulang+Kecik/@5.8490742,100.3649733,17.45z/data=!4m12!1m6!3m5!1s0x304b3ba563963a87:0xdfa6827eb57d9c59!2sMee+Udang!8m2!3d5.8530279!4d100.3832123!3m4!1s0x304b3b9c6c4a45d3:0x4484c7c6a20cd55f!8m2!3d5.8490742!4d100.3649736" target="_blank">Mee Udang Ombak Lara, Kg. Kuala Dulang Kecil</a>
                 </li>
                 <li>
-                  <a href="https://www.google.com/maps/place/Medan+Selera+PKNK/@6.1196572,100.3703186,13z/data=!4m5!3m4!1s0x0:0xc4299dca3b08bbcd!8m2!3d6.1377706!4d100.3839657" target="_blank">Laksa Hadyai, Medan Selera PKNK</a>
+                  <a href="https://www.google.com/maps/place/Medan+Selera+PKNK/@6.1196572,100.3703186,13z/data=!4m5!3m4!1s0x0:0xc4299dca3b08bbcd!8m2!3d6.1377706!4d100.3839657" target="_blank">Laksa Hadyai, PKNK</a>
                 </li>
               </ul>
             </div>

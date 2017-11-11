@@ -146,6 +146,15 @@ a, a:hover {
   border-right: 1px solid #75a941;
 }
 
+.side-border{
+  border-left: 1px solid #75a941;
+  border-right: 1px solid #75a941;
+}
+
+.row-your-boat{
+  background:whitesmoke;
+}
+
 @media only screen and (max-width: 1024px) {
   body{
     background-position: center;
@@ -172,7 +181,15 @@ a, a:hover {
   }
 
   .recommendation-title{
-    font-size: 22px;
+    font-size: 30px;
+  }
+
+  #transports{
+    padding-right: 15px;
+  }
+
+  #cuisines{
+    padding-right: 5px;
   }
 }
 
@@ -183,6 +200,25 @@ a, a:hover {
 
   .bridegroom-ipad{
     display: none;
+  }
+
+  .full_story_link1{
+    display: none;
+  }
+
+  .middle-gap{
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+    padding-top: 1em;
+  }
+
+  .side-border{
+    border-right: 0;
+    border-left: 0;
+  }
+
+  .row-your-boat{
+    background:transparent;
   }
 
   body{
