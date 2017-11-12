@@ -8,6 +8,7 @@
         <meta name="description" content="Invitation to the wedding of Nur Fadzlina & Raja Mohamad Asyraf.">
         <meta property="og:image" content="{{ asset('image/ogimagenew-03.png') }}"/>
         <title>Fadzlina & Asyraf</title>
+        <link rel="icon" href="{{ asset('images/care.ico') }}" type="image/x-icon">
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
@@ -16,14 +17,8 @@
         <!-- Font Awesome -->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-        <!-- jQuery Countdown -->
-        <script src="{{ asset('/js/jquery-3.2.1.min.js') }}"></script>
-        <script src="{{ asset('/js/jquery.countdown/jquery.countdown.js') }}"></script>
-
         <!-- Bootstrap -->
         <link rel="stylesheet" href="{{ asset('css/bootstrap_css/bootstrap.min.css') }}">
-        <script src="{{ asset('js/bootstrap_js/popper.js') }}"></script>
-        <script src="{{ asset('js/bootstrap_js/bootstrap.min.js') }}"></script>
 
         <!-- Styles -->
         <link href="{{ asset('/css/wedding_style.css') }}" rel="stylesheet" type="text/css" >
@@ -465,12 +460,17 @@
 
     </body>
 
-    <!-- CKEditor 5 -->
-    <script src="https://cdn.ckeditor.com/ckeditor5/1.0.0-alpha.1/classic/ckeditor.js"></script>
+    <!-- jQuery Countdown -->
+    <script src="{{ asset('/js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ asset('/js/jquery.countdown/jquery.countdown.js') }}"></script>
+
+    <!-- Bootstrap -->
+    <script src="{{ asset('js/bootstrap_js/popper.js') }}"></script>
+    <script src="{{ asset('js/bootstrap_js/bootstrap.min.js') }}"></script>
 
     <!-- Vue JS & Axios -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.1/vue.min.js"></script>
     <script src="{{ asset('js/vue-main.js') }}"></script>
 
     <script type="text/javascript">
