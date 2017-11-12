@@ -17,3 +17,7 @@ Route::get('/', function () {
 
 Route::post('/api/wish', 'WishController@save');
 Route::post('/api/rsvp', 'ResponseController@save');
+
+Auth::routes();
+
+Route::get('/kandadinda', 'HomeController@index')->name('admin');
