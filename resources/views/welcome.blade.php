@@ -5,8 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}" />
-        <meta name="description" content="Invitation to the wedding of Nur Fadzlina & Raja Mohamad Asyraf.">
-        <meta property="og:image" content="{{ asset('image/ogimagenew-03.png') }}"/>
+        <meta name="description" content="Invitation to the wedding of Nur Fadzlina & Raja Mohamad Asyraf">
+        <meta property="og:url"                content="fadzlinafuad.com" />
+        <meta property="og:type"               content="website" />
+        <meta property="og:title"              content="Fadzlina & Asyraf" />
+        <meta property="og:description"        content="Invitation to the wedding of Nur Fadzlina & Raja Mohamad Asyraf." />
+        <meta property="og:image"              content="{{ asset('images/ogimagenew-03.png') }}" />
+        <link rel="image_src" href="{{ asset('images/ogimagenew-03.png') }}" / >
         <title>Fadzlina & Asyraf</title>
         <link rel="icon" href="{{ asset('images/care.ico') }}" type="image/x-icon">
 
@@ -22,6 +27,28 @@
 
         <!-- Styles -->
         <link href="{{ asset('/css/wedding_style.css') }}" rel="stylesheet" type="text/css" >
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109561209-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-109561209-1');
+        </script>
+
+        <!-- Hotjar Tracking Code for www.fadzlinafuad.com -->
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:687288,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
     </head>
     <body>
         <div class="container-fluid full-height text-center" id="screen-top">
@@ -33,7 +60,7 @@
                 <p class="header-text">Invitation To The Wedding Of</p>
               </div>
               <div>
-                  <img class="name-title" src="{{ asset('images/Title-02.png')}}" alt="">
+                  <img class="name-title" src="{{ asset('images/Title-02.png')}}" alt="" height="100px;">
               </div>
               <div class="all-links">
                 <a class="links" href="#story">Our Story</a>
@@ -296,7 +323,7 @@
           </div>
           <br>
           <div class="row" style="margin-left: 1px; margin-right: 1px; padding-top: 10px; padding-bottom: 10px;">
-            <div class="col-sm col-md-6 text-left middle-gap  row-your-boat">
+            <div class="col-sm col-md-6 text-left middle-gap  row-your-boat" style="padding-top:15px;">
               <h4 class="text-center recommendation-title">Recommended Accomodations</h4>
               <p>
                 <ul>
@@ -318,20 +345,7 @@
                 </ul>
               </p>
             </div>
-            <!-- <div class="col-sm col-md-4 text-left middle-gap">
-              <div class="side-border" style="height:100%;">
-                <h4 class="text-center recommendation-title">Recommended Transportations</h4>
-                <p>
-                  <ul id="transports">
-                    <li>Flight (Sultan Abdul Halim Airport, Alor Setar)</li>
-                    <li>ETS (Anak Bukit Railway Station, Alor Setar)</li>
-                    <li>Bus Express (Shahab Perdana Bus Terminal, Alor Setar)</li>
-                    <li>Taxi (Grab/Uber is unavailable)</li>
-                  </ul>
-                </p>
-              </div>
-            </div> -->
-            <div class="col-sm col-md-6 text-left middle-gap  row-your-boat">
+            <div class="col-sm col-md-6 text-left middle-gap  row-your-boat" style="padding-top:15px;">
               <h4 class="text-center recommendation-title">Recommended Cuisines</h4>
               <ul id="cuisines">
                 <li>
@@ -350,10 +364,10 @@
                   <a href="https://www.google.com/maps/place/Iman+Kuey+Teow/@6.1435646,100.3625271,17z/data=!3m1!4b1!4m5!3m4!1s0x304b5b4eea86ef4d:0xe0c2310acc001659!8m2!3d6.1435646!4d100.3647158" target="_blank">Kuey Teow Iman</a>
                 </li>
                 <li>
-                  <a href="https://www.google.com/maps/place/Mee+Udang+Kg+Kuala+Dulang+Kecik/@5.8490742,100.3649733,17.45z/data=!4m12!1m6!3m5!1s0x304b3ba563963a87:0xdfa6827eb57d9c59!2sMee+Udang!8m2!3d5.8530279!4d100.3832123!3m4!1s0x304b3b9c6c4a45d3:0x4484c7c6a20cd55f!8m2!3d5.8490742!4d100.3649736" target="_blank">Mee Udang Ombak Lara, Kg. Kuala Dulang Kecil</a>
+                  <a href="https://www.google.com/maps/place/Mee+Udang+Kg+Kuala+Dulang+Kecik/@5.8490742,100.3649733,17.45z/data=!4m12!1m6!3m5!1s0x304b3ba563963a87:0xdfa6827eb57d9c59!2sMee+Udang!8m2!3d5.8530279!4d100.3832123!3m4!1s0x304b3b9c6c4a45d3:0x4484c7c6a20cd55f!8m2!3d5.8490742!4d100.3649736" target="_blank">Mee Udang D'Ombak Lara, Kg. Kuala Dulang Kecil</a>
                 </li>
                 <li>
-                  <a href="https://www.google.com/maps/place/Medan+Selera+PKNK/@6.1196572,100.3703186,13z/data=!4m5!3m4!1s0x0:0xc4299dca3b08bbcd!8m2!3d6.1377706!4d100.3839657" target="_blank">Laksa Hadyai, PKNK</a>
+                  <a href="https://www.google.com/maps/place/Medan+Selera+PKNK/@6.1196572,100.3703186,13z/data=!4m5!3m4!1s0x0:0xc4299dca3b08bbcd!8m2!3d6.1377706!4d100.3839657" target="_blank">Laksa Hadyai, Medan Selera PKNK</a>
                 </li>
               </ul>
             </div>
