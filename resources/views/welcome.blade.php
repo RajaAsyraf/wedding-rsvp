@@ -382,21 +382,23 @@
 
                 <div style="padding-top: 5em;">
                   <form v-on:submit.prevent="addRSVP()" v-if="!sendRSVP">
-
+                    <div>
+                      <p><small>Note: We are regret to inform that the RSVP is now CLOSED. For any inquiries please contact us. Thanks!</small></p>
+                    </div>
                     <div class="form-group">
                       <div class="row justify-content-center">
                         <div class="col-8">
-                          <input v-model="rsvpName" type="text" placeholder="Your name" class="form-control text-center" required>
+                          <input v-model="rsvpName" type="text" placeholder="Your name" class="form-control text-center" disabled>
                         </div>
                       </div>
                     </div>
                     <div class="form-group">
                       <div class="radio">
-                        <input type="radio" id="one" value="Yeayy!!! See you there, " v-model="rsvp" required>
+                        <input type="radio" id="one" value="Yeayy!!! See you there, " v-model="rsvp" disabled>
                         <label for="one">I am coming!</label>
                       </div>
                       <div class="radio">
-                        <input type="radio" id="two" value="It'okay, " v-model="rsvp" required>
+                        <input type="radio" id="two" value="It'okay, " v-model="rsvp" disabled>
                         <label for="two">Sorry, can't make it.</label>
                       </div>
                     </div>
@@ -408,7 +410,7 @@
                     <div class="form-group">
                       <div class="row justify-content-center">
                         <div class="col-6" style="background-color: #05341f;">
-                          <input type="submit" name="buttonAccept" v-bind:value="rsvpStatus" style="color: white; background-color: transparent;" class="btn btn-block" :class="{ disabled: isDisabled }" :disabled="isDisabled">
+                          <input type="submit" name="buttonAccept" v-bind:value="rsvpStatus" style="color: white; background-color: transparent;" class="btn btn-block" disabled>
                         </div>
                       </div>
                     </div>
@@ -438,17 +440,19 @@
                 </h1>
                 <div>
                   <form v-on:submit.prevent="addWish()" v-if="!sendWish">
-                    <p>Send your wedding wishes to us and we will display it on our special day!</p>
-                    <div class="form-group">
-                      <input v-model="rsvpName" type="text" placeholder="Your name" class="form-control text-center" required></input>
+                    <div>
+                      <p><small>Note: Thank you for your well wishes on our big day. Due to preparation of the ceremony, we are unable to accept any online wedding wishes. See you there!</small></p>
                     </div>
                     <div class="form-group">
-                      <textarea v-model="wishMessage" class="form-control text-center" rows="8" cols="50" placeholder="Your message" style="resize: none;" required></textarea>
+                      <input v-model="rsvpName" type="text" placeholder="Your name" class="form-control text-center" disabled></input>
+                    </div>
+                    <div class="form-group">
+                      <textarea v-model="wishMessage" class="form-control text-center" rows="8" cols="50" placeholder="Your message" style="resize: none;" disabled></textarea>
                     </div>
                     <div class="form-group">
                       <div class="row justify-content-center">
                         <div class="col-6" style="background-color: #05341f;">
-                          <input type="submit" name="buttonSendWish" v-bind:value="wishStatus" style="color: white; background-color: transparent;" class="btn btn-block" :class="{ disabled: isDisabled2 }" :disabled="isDisabled2">
+                          <input type="submit" name="buttonSendWish" v-bind:value="wishStatus" style="color: white; background-color: transparent;" class="btn btn-block" disabled>
                         </div>
                       </div>
                     </div>
