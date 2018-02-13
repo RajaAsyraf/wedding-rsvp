@@ -71,10 +71,10 @@
                 <a class="links" href="#wishes">Wedding Wishes</a>
               </div>
 
-              <div id="clock" class="h1">Countdown</div>
-              <small>until the reception</small>
-
               <br>
+              <small>We have been married for</small>
+              <div id="clock" class="h1">Countdown</div>
+
               <br>
               <a class="hamburger">&#9776;</a>
               <a class="cross">&#10005;</a>
@@ -440,26 +440,22 @@
                 </h1>
                 <div>
                   <form v-on:submit.prevent="addWish()" v-if="!sendWish">
-                    <div>
-                      <p><small>Note: Thank you for your well wishes on our big day. Due to preparation of the ceremony, we are unable to accept any online wedding wishes. See you there!</small></p>
+                    <div class="form-group">
+                      <input v-model="rsvpName" type="text" placeholder="Your name" class="form-control text-center" required></input>
                     </div>
                     <div class="form-group">
-                      <input v-model="rsvpName" type="text" placeholder="Your name" class="form-control text-center" disabled></input>
-                    </div>
-                    <div class="form-group">
-                      <textarea v-model="wishMessage" class="form-control text-center" rows="8" cols="50" placeholder="Your message" style="resize: none;" disabled></textarea>
+                      <textarea v-model="wishMessage" class="form-control text-center" rows="8" cols="50" placeholder="Your message" style="resize: none;" required></textarea>
                     </div>
                     <div class="form-group">
                       <div class="row justify-content-center">
                         <div class="col-6" style="background-color: #05341f;">
-                          <input type="submit" name="buttonSendWish" v-bind:value="wishStatus" style="color: white; background-color: transparent;" class="btn btn-block" disabled>
+                          <input type="submit" name="buttonSendWish" v-bind:value="wishStatus" style="color: white; background-color: transparent;" class="btn btn-block">
                         </div>
                       </div>
                     </div>
                   </form>
                   <div class="alert alert-success" v-if="sendWish">
                     <p>Great! Thank you so much for your wish, @{{ rsvpName }}.</p>
-                    <p>We are going to put your wish up on our cherish board.</p>
                   </div>
                 </div>
               </div>
@@ -470,7 +466,6 @@
               </div>
               <br><br><br><br><br>
             </div>
-            <!-- <div style="position: absolute; bottom: 0; left:0; right:0; opacity: 0.5;"><p><small>All rights belong to us.</small></p><p><small> Design by The Bride & Develop by The Groom</small></p></div> -->
           </div>
         </div>
 
@@ -492,7 +487,7 @@
     <script src="{{ asset('js/vue-main.js') }}"></script>
 
     <script type="text/javascript">
-    $('#clock').countdown('2017/12/09 00:00:00').on('update.countdown', function(event) {
+    $('#clock').countdown('2017/12/09 00:00:00',{elapse: true}).on('update.countdown', function(event) {
       var $this = $(this).html(event.strftime(''
         + '<span>%-w</span> week%!w '
         + '<span>%-d</span> day%!d '
